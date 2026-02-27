@@ -177,7 +177,7 @@ a,
 
 #myCarousel .carousel-item img {
     width: 100%;
-    height: 500px;
+    height: 550px;
     object-fit: cover;
 }
 .logo img,
@@ -518,6 +518,7 @@ button {
      transition: ease-in all 0.5s;
      font-weight: 500;
      border-radius: 30px;
+     margin-bottom: 10px;
 }
 
 .read_more:hover {
@@ -576,7 +577,7 @@ button {
 .our_room {
      background-color: #f4f5f7;
      padding: 60px 0 30px 0;
-     margin-top: 90px;
+     margin-top: 0px;
 }
 
 .our_room .titlepage {
@@ -778,7 +779,8 @@ letter-spacing: 0.5px;
 
 .contact {
      background: #fff;
-     margin-top: 90px;
+     margin-top: 0px;
+    padding: 45px 0;
 }
 
 .main_form .contactus {
@@ -849,7 +851,7 @@ letter-spacing: 0.5px;
 
 .footer {
      background: #0f1521;
-     margin-top: 90px;
+     margin-top: 0px;
      padding-top: 60px;
      text-align: center;
 }
@@ -1039,4 +1041,883 @@ line-height: 35px;
 
 
 
+.why-choose {
+    padding: 60px 20px;
+    background: #f9fafc;
+    font-family: Arial, sans-serif;
+}
 
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.why-choose h2 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 40px;
+    color: #2d2d2d;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+}
+
+.card {
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+    transition: 0.3s ease;
+    border: 1px solid #e5e5e5;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+}
+
+.icon {
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.card h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #1f1f1f;
+}
+
+.card p {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.6;
+}
+
+.bottom-text {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 16px;
+    color: #333;
+}
+
+.rooms-section {
+    padding: 80px 0;
+    background: #f8f9fb;
+}
+
+.rooms-content h2 {
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #111;
+}
+
+.rooms-content h2 span {
+    color: #d32f2f; /* Accent color */
+}
+
+.underline {
+    width: 60px;
+    height: 4px;
+    background: #d32f2f;
+    margin-bottom: 20px;
+    border-radius: 2px;
+}
+
+.rooms-content p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.8;
+    margin-bottom: 25px;
+}
+
+.btn-explore {
+    display: inline-block;
+    padding: 12px 28px;
+    background: #111;
+    color: #fff;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.btn-explore:hover {
+    background: #d32f2f;
+    color: #fff;
+}
+
+.rooms-image {
+    position: relative;
+}
+
+.rooms-image img {
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+    transition: 0.4s ease;
+}
+
+.rooms-image img:hover {
+    transform: scale(1.03);
+}
+
+.room-features {
+    padding: 20px 0;
+}
+
+.section-title h2 {
+    font-size: 38px;
+    font-weight: 700;
+}
+
+.section-title span {
+    color: #d32f2f;
+}
+
+.underline-center {
+    width: 60px;
+    height: 4px;
+    background: #d32f2f;
+    margin: 0px auto 40px !important;
+    border-radius: 2px;
+}
+
+.feature-box {
+    background: #f8f9fb;
+    padding: 30px 25px;
+    border-radius: 15px;
+    text-align: center;
+    transition: 0.3s ease;
+    height: 100%;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+}
+
+.feature-box:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+    background: #ffffff;
+}
+
+.feature-icon {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.feature-box h5 {
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.feature-box p {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.6;
+}
+
+.features-bottom {
+    margin-top: 50px;
+    font-size: 16px;
+    color: #333;
+}
+
+
+
+.pg-content h2 {
+    font-size: 38px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.pg-content h2 span {
+    color: #d32f2f;
+}
+
+.pg-content p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+.pg-bottom-text {
+    font-weight: 500;
+    color: #222;
+}
+
+/* Right Side Box */
+.pg-features {
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.08);
+}
+
+.pg-features h4 {
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.pg-features ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.pg-features ul li {
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 15px;
+    font-size: 15px;
+    color: #444;
+}
+
+/* Custom Check Icon */
+.pg-features ul li::before {
+    content: "✔";
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #d32f2f;
+    font-weight: bold;
+}
+
+/*End Location + Stay Types + Booking CTA */
+.location-section {
+    padding: 90px 0;
+
+}
+
+/* Headings */
+.location-content h2,
+.stay-types h2,
+.booking-cta h2 {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.location-content h2 span,
+.stay-types h2 span {
+    color: #d32f2f;
+}
+
+.underline,
+.underline-center {
+    width: 60px;
+    height: 4px;
+    background: #d32f2f;
+    margin: 15px 0 25px;
+    border-radius: 3px;
+}
+
+.underline-center {
+    margin: 15px auto 30px;
+}
+
+/* Lists */
+.location-list {
+    list-style: none;
+    padding: 0;
+}
+
+.location-list li {
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 12px;
+    font-size: 15px;
+}
+
+.location-list li::before {
+    content: "✔";
+    position: absolute;
+    left: 0;
+    color: #d32f2f;
+}
+
+/* Highlight Text */
+.highlight-text {
+    margin-top: 20px;
+    font-weight: 500;
+}
+
+/* Right Info Box */
+.location-box {
+    background: #f8f9fb;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.08);
+}
+
+/* Stay Type Boxes */
+.stay-box {
+    background: #f8f9fb;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    transition: 0.3s ease;
+    font-weight: 500;
+}
+
+.stay-box:hover {
+    background: #d32f2f;
+    color: #fff;
+    transform: translateY(-5px);
+}
+
+/* CTA Section */
+.cta-section {
+    padding: 100px 20px;
+}
+
+.cta-box {
+    background: #f6f1ea;
+    
+    padding: 70px 40px;
+    border-radius: 30px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 30px 60px rgba(0,0,0,0.25);
+}
+
+/* Soft Glow Effect */
+.cta-box::before {
+    content: "";
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background: rgba(211,47,47,0.3);
+    border-radius: 50%;
+    top: -100px;
+    right: -100px;
+    filter: blur(100px);
+}
+
+/* Heading */
+.cta-box h2 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+/* Paragraph */
+.cta-box p {
+    font-size: 17px;
+    color: #414040;
+    max-width: 750px;
+    margin: 0 auto 15px;
+    line-height: 1.7;
+}
+
+.cta-sub {
+    font-weight: 500;
+    color: #ffffff;
+    margin-bottom: 35px;
+}
+
+/* Buttons */
+.cta-buttons {
+    margin-top: 20px;
+}
+
+.btn-primary-cta {
+    display: inline-block;
+    padding: 14px 40px;
+    border: 2px solid #fff;
+    background: #ffffff;
+    color: #000000;
+    border-radius: 40px;
+    text-decoration: none;
+    font-weight: 600;
+    margin: 10px;
+    transition: 0.3s ease;
+}
+
+.btn-primary-cta:hover {
+    background: #fa5d5d;
+    color: #111;
+}
+
+.btn-outline-cta {
+    display: inline-block;
+    padding: 14px 40px;
+    border: 2px solid #fff;
+    background: #ffffff;
+    color: #000000;
+    border-radius: 40px;
+    text-decoration: none;
+    font-weight: 600;
+    margin: 10px;
+    transition: 0.3s ease;
+}
+
+.btn-outline-cta:hover {
+    background: #fa5d5d;
+    color: #111;
+}
+/*Start about */
+.about-section {
+    padding: 100px 0;
+    background: #f6f1ea; /* warm hospitality tone */
+}
+
+.about-image img {
+    width: 100%;
+    border-radius: 25px;
+    box-shadow: 0 25px 50px rgba(0,0,0,0.15);
+    transition: 0.4s ease;
+}
+
+.about-image img:hover {
+    transform: scale(1.03);
+}
+
+.about-content h2 {
+    font-size: 38px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.about-content h2 span {
+    color: #d32f2f;
+}
+
+.underline {
+    width: 60px;
+    height: 4px;
+    background: #d32f2f;
+    margin-bottom: 25px;
+    border-radius: 3px;
+}
+
+.about-content p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+/* Highlight Points */
+.about-highlights {
+    margin: 25px 0;
+}
+
+.highlight-item {
+    margin-bottom: 12px;
+    font-weight: 500;
+    color: #222;
+}
+
+/* Button */
+.btn-about {
+    display: inline-block;
+    padding: 14px 35px;
+    background: #111;
+    color: #fff;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: 0.3s ease;
+    margin-top: 10px;
+}
+
+.btn-about:hover {
+    background: #d32f2f;
+}
+
+/* Fix About Section Heading Alignment */
+.about-section {
+    padding: 0px 0;
+    background: #f6f1ea;
+}
+
+/* Center heading properly and align with container */
+.about-section > h2 {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Style span */
+.about-section > h2 span {
+    color: #d32f2f;
+}
+
+/* Proper underline alignment */
+.about-section > .underline {
+    max-width: 1140px;
+    margin: 10px auto 50px;
+    padding: 0 15px;
+    height: 4px;
+    background: #d32f2f;
+    width: 70px;
+    border-radius: 3px;
+}
+
+/* Better spacing for content */
+.about-content {
+    padding-left: 30px;
+}
+
+@media (max-width: 991px) {
+    .about-section > h2 {
+        text-align: center;
+    }
+
+    .about-section > .underline {
+        margin: 10px auto 30px;
+    }
+
+    .about-content {
+        padding-left: 0;
+        margin-top: 30px;
+    }
+}
+/*end about /*
+
+/* Luxury Jaipur Mission Box */
+.mission-text {
+    margin-top: 35px;
+    padding: 30px 35px;
+    background: #fff8f1; /* warm cream tone */
+    border: 1px solid #f0d8c5;
+    border-radius: 18px;
+    font-size: 17px;
+    line-height: 1.9;
+    color: #5a3e36;
+    position: relative;
+}
+
+/* Decorative top border accent */
+.mission-text::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 30px;
+    width: 60px;
+    height: 4px;
+    background: linear-gradient(90deg, #8b1e1e, #d4a373);
+    border-radius: 3px;
+}
+
+/* Luxury Button */
+.btn-about {
+
+    display: inline-block;
+    margin-top: 30px;
+    padding: 14px 38px;
+    background: linear-gradient(135deg, #8b1e1e, #b23a3a);
+    color: #fff;
+    border-radius: 40px;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    transition: 0.4s ease;
+    box-shadow: 0 8px 20px rgba(139,30,30,0.25);
+}
+
+/* Hover Effect */
+.btn-about:hover {
+    background: linear-gradient(135deg, #b23a3a, #8b1e1e);
+    transform: translateY(-4px);
+}
+.mission-text {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.btn-about {
+    display: block;
+    width: fit-content;
+    margin: 30px auto 0;
+}
+
+.pg-hotel-dual-section {
+    padding: 100px 0;
+    background: #f6f1ea; /* warm hospitality tone */
+}
+
+.dual-box {
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 20px 45px rgba(0,0,0,0.08);
+    height: 100%;
+    transition: 0.3s ease;
+}
+
+.dual-box:hover {
+    transform: translateY(-8px);
+}
+
+.dual-box h3 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #222;
+}
+
+.dual-underline {
+    width: 60px;
+    height: 4px;
+    background: linear-gradient(90deg, #8b1e1e, #d4a373);
+    margin-bottom: 20px;
+    border-radius: 3px;
+}
+
+.dual-box p {
+    font-size: 15px;
+    line-height: 1.8;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.dual-box ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.dual-box ul li {
+    position: relative;
+    padding-left: 28px;
+    margin-bottom: 12px;
+    font-size: 14px;
+    color: #444;
+}
+
+.dual-box ul li::before {
+    content: "✔";
+    position: absolute;
+    left: 0;
+    color: #8b1e1e;
+    font-weight: bold;
+}
+
+.dual-highlight {
+    margin-top: 20px;
+    font-weight: 500;
+    color: #5a3e36;
+}
+.stay-choose-section {
+    padding: 25px 0;
+    background: #ffffff;
+}
+
+.section-gap {
+    margin-bottom: 80px;
+}
+
+.reverse-row {
+    flex-direction: row-reverse;
+}
+
+/* Left Text Area */
+.text-content h3 {
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.text-content p {
+    font-size: 15px;
+    color: #555;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+/* Number Styling */
+.section-number {
+    font-size: 60px;
+    font-weight: 700;
+    color: rgba(139, 30, 30, 0.87);
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Highlight Line */
+.highlight-line {
+    font-weight: 600;
+    color: #8b1e1e;
+    margin-top: 10px;
+}
+
+/* Right Accent Box */
+.side-accent-box {
+    padding: 35px;
+    border-left: 5px solid #8b1e1e;
+    background: #f9f3ed;
+    border-radius: 15px;
+    height: 100%;
+    margin-bottom: 30px; /* adds spacing when stacked */
+}
+
+/* Heading */
+.side-accent-box h5 {
+    margin-bottom: 18px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+/* List Reset */
+.side-accent-box ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* List Items */
+.side-accent-box ul li {
+    margin-bottom: 14px;
+    padding-left: 22px;
+    position: relative;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+/* Bullet Style */
+.side-accent-box ul li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: #8b1e1e;
+    font-weight: bold;
+    font-size: 20px;
+    top: -2px;
+}
+
+/* Section Heading Spacing */
+.section-main-heading {
+    margin-bottom: 80px;
+}
+
+/* 📱 Mobile Fix */
+@media (max-width: 768px) {
+    .side-accent-box {
+        padding: 25px;
+        border-left: 4px solid #8b1e1e;
+        text-align: left;
+    }
+}
+
+/* Small Tag */
+.section-tag {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    color: #8b1e1e;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+/* Main Heading */
+.section-main-heading h2 {
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 1.3;
+    max-width: 850px;
+    margin: 0 auto 15px;
+}
+
+/* Decorative Divider */
+.heading-divider {
+    width: 80px;
+    height: 4px;
+    background: linear-gradient(90deg, #8b1e1e, #d4a373);
+    margin: 15px auto 20px;
+    border-radius: 3px;
+}
+
+/* Subtitle */
+.section-subtitle {
+    font-size: 16px;
+    color: #666;
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.7;
+}
+.final-cta-section {
+    padding: 25px 20px;
+    background: linear-gradient(135deg, #f6f1ea, #fffaf5);
+}
+
+.final-cta-box {
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.final-cta-box h2 {
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+/* Decorative Divider */
+.cta-divider {
+    width: 90px;
+    height: 4px;
+    background: linear-gradient(90deg, #8b1e1e, #d4a373);
+    margin: 20px auto 30px;
+    border-radius: 3px;
+}
+
+.final-cta-box p {
+    font-size: 17px;
+    color: #555;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+.cta-highlight {
+    font-weight: 600;
+    color: #8b1e1e;
+    margin-bottom: 35px;
+}
+
+/* Buttons Container */
+.cta-buttons {
+    margin-top: 20px;
+}
+
+/* Explore Button */
+.btn-explore-room {
+    display: inline-block;
+    padding: 14px 38px;
+    background: #111;
+    color: #fff;
+    border-radius: 40px;
+    text-decoration: none;
+    font-weight: 600;
+    margin: 10px;
+    transition: 0.3s ease;
+}
+
+.btn-explore-room:hover {
+    background: #8b1e1e;
+}
+
+/* WhatsApp Button */
+.btn-whatsapp-book {
+    display: inline-block;
+    padding: 14px 38px;
+    background: #25D366;
+    color: #fff;
+    border-radius: 40px;
+    text-decoration: none;
+    font-weight: 600;
+    margin: 10px;
+    transition: 0.3s ease;
+}
+
+.btn-whatsapp-book:hover {
+    background: #1ebe5d;
+}
+.room-features .row {
+    row-gap: 30px !important;
+}
